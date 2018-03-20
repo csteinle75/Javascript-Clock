@@ -1,0 +1,41 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #FFD;
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: 300;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+
+#clocksContainer{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.clock{
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	font-size: 48px;
+	line-height: 200px;
+	position: relative;
+	margin: 10px 0;
+}
+.clockTitle{
+	position: absolute;
+	line-height: initial;
+	font-size: 36px;
+	top: 10px;
+	left: 0;
+	right: 0;
+}
+#clockOne{background-color: #F00;}
+#clockTwo{background-color: #0F0;}

@@ -1,0 +1,24 @@
+{
+  "name": "javascript-clock",
+  "version": "1.0.0",
+  "description": "JS Clock",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csteinle75/Javascript-Clock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csteinle75/Javascript-Clock/issues"
+  },
+  "homepage": "https://github.com/csteinle75/Javascript-Clock#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "moment": "^2.21.0",
+    "npm": "^5.7.1"
+  }
+}

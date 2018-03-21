@@ -3,13 +3,14 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #FFD;
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-weight: 300;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
 	font-family: inherit;
 	font-weight: inherit;
+	color: inherit;
 }
 
 
@@ -19,7 +20,12 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-
+.clockWrapper{
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #bbb;
+	margin: 20px;
+}
 .clock{
 	width: 500px;
 	height: 200px;
@@ -27,7 +33,6 @@ body {
 	font-size: 48px;
 	line-height: 200px;
 	position: relative;
-	margin: 10px 0;
 }
 .clockTitle{
 	position: absolute;
@@ -36,6 +41,47 @@ body {
 	top: 10px;
 	left: 0;
 	right: 0;
+	color: #D00;
 }
-#clockOne{background-color: #F00;}
-#clockTwo{background-color: #0F0;}
+#clockOne,#clockTwo{
+	background-color: #000;
+	color: #D00;
+	border-radius: 5px;
+}
+#clockThree{
+	border-radius: 5px;
+}
+#bgLabel{
+	position: absolute;
+	line-height: initial;
+	font-size: 16px;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+}
+.clockButton{
+	width: 150px;
+	height: 5px;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	right: 0;
+	background-color: #999;
+	border-radius: 3px 3px 0 0;
+}
+.clockFootLeft{
+	width: 75px;
+	height: 5px;
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	background-color: #999;
+}
+.clockFootRight{
+	width: 75px;
+	height: 5px;
+	position: absolute;
+	bottom: -15px;
+	right: 0;
+	background-color: #999;
+}

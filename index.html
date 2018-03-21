@@ -8,13 +8,29 @@
 </head>
 <body>
 	<div id="clocksContainer">
-		<div class="clock">
-			<span class="clockTitle">Movement</span>
-			<div id="clockOne"></div>
+		<div class="clockWrapper">	
+			<div class="clock">
+				<div class="clockButton"></div>
+				<span class="clockTitle">Movement</span>
+				<div id="clockOne"></div>
+				<div class="clockFootLeft"></div><div class="clockFootRight"></div>
+			</div>
 		</div>
-		<div class="clock">
-			<span class="clockTitle">new Date</span>
-			<div id="clockTwo"></div>
+		<div class="clockWrapper">
+			<div class="clock">
+				<div class="clockButton"></div>
+				<span class="clockTitle">new Date</span>
+				<div id="clockTwo"></div>
+				<div class="clockFootLeft"></div><div class="clockFootRight"></div>
+			</div>
+		</div>
+		<div class="clockWrapper" id="hexClock">
+			<div class="clock" >
+				<div class="clockButton"></div>
+				<span class="clockTitle">Hex Clock</span>
+				<div id="clockThree"></div>
+				<div class="clockFootLeft"></div><div class="clockFootRight"></div>
+			</div>
 		</div>
 	</div> <!-- clocks container end -->
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>

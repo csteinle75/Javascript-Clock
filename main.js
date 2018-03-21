@@ -1,6 +1,3 @@
-var moment = require('moment');
-var $ = require('jquery');
-
 const getTime = function(){
 	const clock1 = $('#clockOne')
 	const clock2 = $('#clockTwo')

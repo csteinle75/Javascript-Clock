@@ -1,4 +1,3 @@
-
 const getTime = function(){
 	const clock1 = $('#clockOne')
 	const clock2 = $('#clockTwo')
